@@ -1,0 +1,61 @@
+/* style.css */
+body {
+  display: block;
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+/* header def */
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  align-content: space-between;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo-size {
+  height: 50px;
+  margin-left: 10px;
+
+}
+.hdr-nav {
+  padding: 10px;
+
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    align-items: center;
+}
+/* content def */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 78px auto;
+  padding-top: 70px;
+}
+.mission-def {
+
+}
+.tea-month {
+
+}
+.location-def {
+
+}
+.footer-def {
+
+}
