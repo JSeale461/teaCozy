@@ -1,4 +1,4 @@
-/* style.css */
+/* style.css JSS 3-15-19*/
 body {
   display: block;
   margin: 0;
@@ -41,7 +41,7 @@ nav span {
     align-items: center;
 }
 a {
-  color: white;
+  color: seashell;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -50,6 +50,9 @@ h2 {
 }
 h4 {
   margin: 10px;
+}
+.footer-top h5 {
+ margin: 20px;
 }
 /* content def */
 .content {
@@ -65,8 +68,9 @@ h4 {
   align-items: center;
   height: 700px;
   width: 1200px;
+  padding-top: 70px;
   background-image: url("../images/img-mission-background.jpg");
-  border: 3px solid red;
+/*  border: 3px solid red;  */
   z-index: 1;
 }
 .mhdr {
@@ -77,20 +81,21 @@ h4 {
   background-color: black;
   margin: 0px;
   width: 100%;
-  border: 3px solid grey;
 }
 .tea-month {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 700px;
+  padding-top: 70px;
+  height: 720px;
   width: 1000px;
-  border: 3px solid yellow;
+/*  border: 3px solid yellow;  */
 }
 .teapics {
   display:flex;
   flex-direction: row;
   align-items: center;
+/*  padding-top: 10px; */
 }
 .teapic {
   display:flex;
@@ -110,11 +115,12 @@ h4 {
   align-items: center;
   height: 500px;
   width: 1200px;
-  border: 3px solid red;
+  padding-top: 70px;
+/*  border: 3px solid red; */
   background-image: url(../images/img-locations-background.jpg)
 }
 .location-def h2 {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 .addresses {
@@ -132,9 +138,7 @@ h4 {
   background-color: black;
 
 }
-.footer-def {
 
-}
 .footer-top {
   display:flex;
   height: 200px;
